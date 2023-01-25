@@ -1,0 +1,14 @@
+{
+  "name": "valorant-api",
+  "version": "1.0.0",
+  "description": "A module to interact with the Valorant Agent api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Norberto Gomez Rosales",
+  "license": "MIT",
+  "dependencies": {
+    "superagent": "^7.1.3"
+  }
+}
