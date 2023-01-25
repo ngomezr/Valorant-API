@@ -1,0 +1,20 @@
+{
+  "name": "agent-application-server",
+  "version": "1.0.0",
+  "description": "API to select specific agents from Valorant based on their class.",
+  "main": "cli.js",
+  "scripts": {
+    "start" : ".\\node_modules\\.bin\\nodemon server.js"
+  },
+  "author": "Norberto Gomez Rosales",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongodb": "^4.6.0",
+    "valorant-api": "file:../valorant-api"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
